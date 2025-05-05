@@ -1,0 +1,36 @@
+{
+  "name": "pokemon_entry_visualizer",
+  "version": "1.0.0",
+  "description": "Trying out react and docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",  
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoRAR/pokemon_entry_visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoRAR/pokemon_entry_visualizer/issues"
+  },
+  "homepage": "https://github.com/MateoRAR/pokemon_entry_visualizer#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1",
+    "style-loader": "^3.3.3",
+    "css-loader": "^6.7.1"
+  }
+}
